@@ -1,0 +1,43 @@
+C:\Users\Nyame Akwan\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\bin\Debug\Fuji Oil.exe.config
+C:\Users\Nyame Akwan\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\bin\Debug\Fuji Oil.exe
+C:\Users\Nyame Akwan\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\bin\Debug\Fuji Oil.pdb
+C:\Users\Nyame Akwan\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\bin\Debug\CircularProgressBar.dll
+C:\Users\Nyame Akwan\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\bin\Debug\WinFormAnimation.dll
+C:\Users\Nyame Akwan\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\bin\Debug\CircularProgressBar.xml
+C:\Users\Nyame Akwan\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\bin\Debug\WinFormAnimation.xml
+C:\Users\Nyame Akwan\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji Oil.csprojResolveAssemblyReference.cache
+C:\Users\Nyame Akwan\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji_Oil.Form1.resources
+C:\Users\Nyame Akwan\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji_Oil.Properties.Resources.resources
+C:\Users\Nyame Akwan\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji Oil.csproj.GenerateResource.Cache
+C:\Users\Nyame Akwan\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji Oil.exe
+C:\Users\Nyame Akwan\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji Oil.pdb
+C:\Users\Nyame Akwan\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji_Oil.SignIn.resources
+C:\Users\Nyame Akwan\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Nyame Akwan\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\bin\Debug\Guna.UI.dll
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\bin\Debug\Fuji Oil.exe.config
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji Oil.exe
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji Oil.pdb
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\bin\Debug\Fuji Oil.exe
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\bin\Debug\Fuji Oil.pdb
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\bin\Debug\CircularProgressBar.dll
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\bin\Debug\Guna.UI.dll
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\bin\Debug\WinFormAnimation.dll
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\bin\Debug\CircularProgressBar.xml
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\bin\Debug\WinFormAnimation.xml
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji Oil.csprojResolveAssemblyReference.cache
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji_Oil.Form1.resources
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji_Oil.Properties.Resources.resources
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji_Oil.SignIn.resources
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji Oil.csproj.GenerateResource.Cache
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji_Oil.DBoard.resources
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji_Oil.DashboardUpdate.resources
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji_Oil.AddSample.resources
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji_Oil.OperatorsRecord.resources
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji_Oil.CheckAnalyticalResults.resources
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji_Oil.AddProductionRemarks.resources
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji_Oil.AddSampleResults.resources
+C:\Users\Code Hub { }\Desktop\Fuji Oil\Fuji Oil\Fuji Oil\obj\Debug\Fuji_Oil.ViewProductionRemarks.resources
+C:\Users\Code Hub { }\Desktop\Fuji Oil GitHub\Fuji Oil\bin\Debug\Fuji Oil.exe.config
+C:\Users\Code Hub { }\Desktop\Fuji Oil GitHub\Fuji Oil\obj\Debug\Fuji Oil.exe
+C:\Users\Code Hub { }\Desktop\Fuji Oil GitHub\Fuji Oil\obj\Debug\Fuji Oil.pdb

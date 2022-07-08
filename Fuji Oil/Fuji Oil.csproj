@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{68EF7B1F-3458-4323-B1B1-27881406C58B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fuji_Oil</RootNamespace>
+    <AssemblyName>Fuji Oil</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\Downloads\Bunifu_UI_v1.5.3\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="CircularProgressBar, Version=2.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CircularProgressBar.2.2.0.0\lib\net35-Client\CircularProgressBar.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\..\Downloads\Guna.UI\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinFormAnimation, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WinFormAnimation.1.3.0.0\lib\net35-Client\WinFormAnimation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddProductionRemarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddProductionRemarks.Designer.cs">
+      <DependentUpon>AddProductionRemarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSample.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSample.Designer.cs">
+      <DependentUpon>AddSample.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSampleResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSampleResults.Designer.cs">
+      <DependentUpon>AddSampleResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckAnalyticalResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckAnalyticalResults.Designer.cs">
+      <DependentUpon>CheckAnalyticalResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashboardUpdate.Designer.cs">
+      <DependentUpon>DashboardUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operator%27s Record.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Operator%27s Record.Designer.cs">
+      <DependentUpon>Operator%27s Record.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignIn.Designer.cs">
+      <DependentUpon>SignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewProductionRemarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewProductionRemarks.Designer.cs">
+      <DependentUpon>ViewProductionRemarks.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddProductionRemarks.resx">
+      <DependentUpon>AddProductionRemarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSample.resx">
+      <DependentUpon>AddSample.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSampleResults.resx">
+      <DependentUpon>AddSampleResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckAnalyticalResults.resx">
+      <DependentUpon>CheckAnalyticalResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardUpdate.resx">
+      <DependentUpon>DashboardUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operator%27s Record.resx">
+      <DependentUpon>Operator%27s Record.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SignIn.resx">
+      <DependentUpon>SignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewProductionRemarks.resx">
+      <DependentUpon>ViewProductionRemarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fuji Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\username.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\external-report-project-management-itim2101-flat-itim2101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\username1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userlogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuDashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuDash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuProduction.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuLab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuReport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuAnalytics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuChart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuRe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuDbd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuDashbd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdown1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\username white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Production White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lab White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userlogin White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shut1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shut11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shut2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdow12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdow20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutd18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuRe1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuChart18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdow18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuDbd18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuLab18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuProduction18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuDash18.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
